@@ -1,0 +1,25 @@
+.healthBack {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    padding: 5px;
+    background-color: #323232;
+    box-shadow: 0 0 5px black;
+}
+
+.healthBarBack {
+    width: 250px;
+    background-color: #212121;
+}
+
+.healthBar {
+    background-color: #e74c3c;
+}
+
+.healthText {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #e74c3c;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+}
