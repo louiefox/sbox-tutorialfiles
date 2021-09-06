@@ -1,13 +1,13 @@
 using Sandbox;
 using Sandbox.UI;
 
-public partial class MyHUD : HudEntity<RootPanel>
+public partial class MyHUD : RootPanel
 {
 	public MyHUD()
 	{
-		if ( !IsClient ) return;
+		AddChild<Vitals>();
 
-		RootPanel.AddChild<Vitals>();
-		RootPanel.AddChild<BasicMenu>();
+		AddChild<Vitals>();
+		AddChild<BasicMenu>();
 	}
 }
