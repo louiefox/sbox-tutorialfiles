@@ -6,8 +6,6 @@ public partial class MyHUD : RootPanel
 	public MyHUD()
 	{
 		AddChild<Vitals>();
-
-		AddChild<Vitals>();
 		AddChild<BasicMenu>();
 	}
 }
